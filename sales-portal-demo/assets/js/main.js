@@ -29,13 +29,13 @@
   const menuToggleButtonIcon = document.querySelector("#menu-toggle i");
   const overlay = document.querySelector(".overlay");
 
-  loginButton && loginButton.addEventListener("click", () => {
+  // loginButton && loginButton.addEventListener("click", () => {
 
-    window.location.href = "home.html"; 
-    setTimeout(() => {
-      window.location.href = "home.html"; 
-    }, 1600);
-  });
+  //   window.location.href = "home.html"; 
+  //   setTimeout(() => {
+  //     window.location.href = "home.html"; 
+  //   }, 1600);
+  // });
 
   menuToggleButton && menuToggleButton.addEventListener("click", () => {
     sidebarNavWrapper && sidebarNavWrapper.classList.toggle("active");
